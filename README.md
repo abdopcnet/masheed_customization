@@ -2,8 +2,25 @@
 
 ![Version](https://img.shields.io/badge/version-28.12.2025-blue)
 
+Custom Frappe/ERPNext app for Masheed business requirements.
 
-Masheed Customization
+### Features
+
+#### Reports
+
+- **Gross Profit Based On Valuation Rate**: Custom report showing gross profit calculations based on valuation rates with multiple grouping options (Invoice, Item, Warehouse, Brand, Customer, etc.)
+
+#### Customizations
+
+- Sales Order client scripts
+- Sales Invoice client scripts
+
+### Documentation
+
+- `app_api_tree.md` - API structure
+- `app_file_structure.md` - File organization
+- `app_workflow.md` - Workflow diagrams
+- `app_plan.md` - Progress tracking
 
 #### License
 
