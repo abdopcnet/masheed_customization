@@ -1,41 +1,32 @@
 # Workflow
 
-## Gross Profit Report Workflow
+## Gross Profit Report Flow
 
 ```
-User Opens Report
+User Opens Report → Select Filters → Execute
     ↓
-Select Filters (Company, Date Range, Group By, etc.)
+Load Sales Invoice Items
     ↓
-Execute Report
+Load Stock Ledger Entries (Valuation Rate)
     ↓
-GrossProfitGenerator.process()
+Calculate Buying Amounts/Rates
     ↓
-Load Invoice Items
+Calculate Gross Profit & Percentages
     ↓
-Load Stock Ledger Entries
-    ↓
-Calculate Buying Rates (Valuation Rate)
-    ↓
-Calculate Gross Profit
-    ↓
-Group Data by Selected Criteria
-    ↓
-Generate Columns
+Group by Selected Criteria
     ↓
 Display Report
 ```
 
-## Sales Order/Invoice Customization Workflow
+## Grouping Options
 
-```
-User Opens Sales Order/Invoice Form
-    ↓
-Load Client Script (sales_order.js / sales_invoice.js)
-    ↓
-User Interacts with Form Fields
-    ↓
-Trigger Custom Validation/Logic
-    ↓
-Update Form Behavior
-```
+- Invoice (with Created By)
+- Item Code
+- Warehouse
+- Brand
+- Item Group
+- Customer
+- Customer Group
+- Sales Person
+- Project
+- Territory
