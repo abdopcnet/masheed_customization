@@ -8,12 +8,7 @@ Custom Frappe/ERPNext app for Masheed business requirements.
 
 #### Reports
 
-- **Gross Profit Based On Valuation Rate**: Custom report showing gross profit calculations based on valuation rates with multiple grouping options (Invoice, Item, Warehouse, Brand, Customer, etc.)
-
-#### Customizations
-
-- Sales Order client scripts
-- Sales Invoice client scripts
+- **Gross Profit Based On Valuation Rate**: Custom report showing gross profit calculations based on valuation rates. Supports multiple grouping options (Invoice, Item, Warehouse, Brand, Customer, etc.) with Created By tracking.
 
 ### Documentation
 
